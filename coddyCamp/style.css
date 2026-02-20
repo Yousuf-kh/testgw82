@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.title {
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.card {
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: start;
+  display: inline-block;
+  margin: 10px;
+
+  div {
+    padding: 30px;
+
+    h2 {
+      font-size: 30px;
+      color: orangered;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #333;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 20px;
+      margin: 20px 0px;
+    }
+
+    .btn1 {
+      padding: 20px 30px;
+      background-color: #000025;
+      color: white;
+      border-radius: 20px;
+      border: 2px solid #000025;
+      transition: .5s ;
+
+      &:hover {
+        background-color: orangered;
+        color: white;
+        border: 2px solid orangered;
+      }
+    }
+
+    .btn2 {
+      padding: 20px 30px;
+      background-color: transparent;
+      color: #000025;
+      border-radius: 20px;
+      border: 2px solid #000025;
+      transition: .3s;
+
+      &:hover {
+        background-color: orangered;
+        color: white;
+        border: 2px solid orangered;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px;
+    height: 230px;
+  }
+}
